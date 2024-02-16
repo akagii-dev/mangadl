@@ -1,7 +1,7 @@
 import argparse
 from lib import Download
 parser = argparse.ArgumentParser(description="tool for downloading comics")
-parser.add_argument("-e", "--episode", help="input a episode URL")
+parser.add_argument("-e", "--episode", help="input an episode URL")
 
 args = parser.parse_args()
 
